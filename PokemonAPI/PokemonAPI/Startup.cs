@@ -9,6 +9,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
+using Microsoft.EntityFrameworkCore;
+using PokemonAPI.Models;
+using PokemonAPI.Repositories;
 
 namespace PokemonAPI
 {
@@ -24,6 +28,8 @@ namespace PokemonAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IPokemonRepository, PokemonRepository>();
+            services.AddDbContext<PokemonContext>(o => o.UseSqlite("Data source=pokemon.db"));
             services.AddControllers();
         }
 
