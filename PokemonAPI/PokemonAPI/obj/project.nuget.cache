@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "PR4XdOziRkvujqRpA/TGSQUJ56ioDCkMg4i5s0G70nLniNJifthnUJ/ueoaZu79Qeh0eQAKcp8OL9Uq+ab1czQ==",
+  "success": true,
+  "projectFilePath": "D:\\DEV\\Programs\\PokemonAPI\\PokemonAPI\\PokemonAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\emmky\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\emmky\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.16\\microsoft.netcore.app.host.win-x64.3.1.16.nupkg.sha512"
+  ],
+  "logs": []
+}
