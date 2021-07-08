@@ -14,8 +14,6 @@ D:\DEV\Programs\PokemonAPI\PokemonAPI\obj\Debug\netcoreapp3.1\staticwebassets\Po
 D:\DEV\Programs\PokemonAPI\PokemonAPI\obj\Debug\netcoreapp3.1\PokemonAPI.dll
 D:\DEV\Programs\PokemonAPI\PokemonAPI\obj\Debug\netcoreapp3.1\PokemonAPI.pdb
 D:\DEV\Programs\PokemonAPI\PokemonAPI\obj\Debug\netcoreapp3.1\PokemonAPI.genruntimeconfig.cache
-D:\DEV\Programs\PokemonAPI\PokemonAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-D:\DEV\Programs\PokemonAPI\PokemonAPI\obj\Debug\netcoreapp3.1\PokemonAPI.csprojAssemblyReference.cache
 D:\DEV\Programs\PokemonAPI\PokemonAPI\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
 D:\DEV\Programs\PokemonAPI\PokemonAPI\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
 D:\DEV\Programs\PokemonAPI\PokemonAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
@@ -58,3 +56,5 @@ D:\DEV\Programs\PokemonAPI\PokemonAPI\bin\Debug\netcoreapp3.1\runtimes\linux-mip
 D:\DEV\Programs\PokemonAPI\PokemonAPI\obj\Debug\netcoreapp3.1\PokemonAPI.csproj.CoreCompileInputs.cache
 D:\DEV\Programs\PokemonAPI\PokemonAPI\obj\Debug\netcoreapp3.1\PokemonAPI.MvcApplicationPartsAssemblyInfo.cache
 D:\DEV\Programs\PokemonAPI\PokemonAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\DEV\Programs\PokemonAPI\pokemonapi\obj\Debug\netcoreapp3.1\PokemonAPI.csproj.AssemblyReference.cache
+D:\DEV\Programs\PokemonAPI\pokemonapi\obj\Debug\netcoreapp3.1\scopedcss\bundle\PokemonAPI.styles.css

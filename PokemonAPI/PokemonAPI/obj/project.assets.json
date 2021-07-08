@@ -1040,11 +1040,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DEV\\Programs\\PokemonAPI\\PokemonAPI\\PokemonAPI.csproj",
+      "projectUniqueName": "D:\\DEV\\Programs\\PokemonAPI\\pokemonapi\\PokemonAPI.csproj",
       "projectName": "PokemonAPI",
-      "projectPath": "D:\\DEV\\Programs\\PokemonAPI\\PokemonAPI\\PokemonAPI.csproj",
+      "projectPath": "D:\\DEV\\Programs\\PokemonAPI\\pokemonapi\\PokemonAPI.csproj",
       "packagesPath": "C:\\Users\\emmky\\.nuget\\packages\\",
-      "outputPath": "D:\\DEV\\Programs\\PokemonAPI\\PokemonAPI\\obj\\",
+      "outputPath": "D:\\DEV\\Programs\\PokemonAPI\\pokemonapi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\emmky\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1059,6 +1059,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -1070,6 +1071,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
@@ -1090,6 +1092,16 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.16, 3.1.16]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1098,7 +1110,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

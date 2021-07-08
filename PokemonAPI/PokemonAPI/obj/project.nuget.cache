@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "thrZjNjvQWloll74Wojso2Nu1iqbTLevtNTdCIGiZDJDQc6gl0/vncLVhx7iGH3nS6qCz62Ls5FZ9NN8A/yvTw==",
+  "dgSpecHash": "o7P8ZboNJXAl1/w5HZatRcRLlbm87EouMiUQKUbQYJJKz96hKXpEqdGZvMU3S8F2Dq7ZcpukNfc0I8IwhiPm4Q==",
   "success": true,
-  "projectFilePath": "D:\\DEV\\Programs\\PokemonAPI\\PokemonAPI\\PokemonAPI.csproj",
+  "projectFilePath": "D:\\DEV\\Programs\\PokemonAPI\\pokemonapi\\PokemonAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emmky\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.7\\microsoft.data.sqlite.core.5.0.7.nupkg.sha512",
     "C:\\Users\\emmky\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
@@ -32,7 +32,9 @@
     "C:\\Users\\emmky\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
     "C:\\Users\\emmky\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\emmky\\.nuget\\packages\\system.text.encodings.web\\5.0.0\\system.text.encodings.web.5.0.0.nupkg.sha512",
-    "C:\\Users\\emmky\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512"
+    "C:\\Users\\emmky\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512",
+    "C:\\Users\\emmky\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\emmky\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.16\\microsoft.netcore.app.host.win-x64.3.1.16.nupkg.sha512"
   ],
   "logs": []
 }
