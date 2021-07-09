@@ -9,32 +9,38 @@ using Microsoft.EntityFrameworkCore;
 using PokemonAPI.Models;
 using PokemonAPI.Repositories;
 
+//API controller is a class responsible for handling requests for an Endpoint
 namespace PokemonAPI.Controllers
 {
+    //route the controller will handle 
     [Route("[controller]")]
     [ApiController]
     public class PokemonController : ControllerBase
     {
         private readonly IPokemonRepository _pokemonRepository;
 
+        //injecting pokemon repository
         public PokemonController(IPokemonRepository pokemonRepository)
         {
             _pokemonRepository = pokemonRepository;
         }
            
+        //method will handle HTTPGET requests
         [HttpGet]
         public async Task<IEnumerable<Pokemon>> GetPokemons()
         {
+            //returns all pokemon
             return await _pokemonRepository.Get();
         }
 
+        //returns a single pokemon that matches the arguement name
         [HttpGet("{name}")]
         public Pokemon GetPokemons(string name)
         {
-
             return _pokemonRepository.GetName(name);
         }
 
+        //handles post requests for creating a new pokemon instance in the database
         [HttpPost]
         public async Task<ActionResult<Pokemon>>PostPokemons([FromBody] Pokemon pokemon)
         {
@@ -42,6 +48,21 @@ namespace PokemonAPI.Controllers
             return CreatedAtAction(nameof(GetPokemons), new { id = newPokemon.Id }, newPokemon);
         }
 
+        //handles post requests for creating a new pokemon instance in the database
+        [HttpPut]
+        public async Task<ActionResult> PutPokemon(int id, [FromBody] Pokemon pokemon)
+        {
+            if (id != pokemon.Id)
+            {
+                return BadRequest();
+            }
+
+            await _pokemonRepository.Update(pokemon);
+
+            return NoContent();
+        }
+
+        //handle delete requests for removing specific pokemon instance from database using id as identifier 
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)
         {

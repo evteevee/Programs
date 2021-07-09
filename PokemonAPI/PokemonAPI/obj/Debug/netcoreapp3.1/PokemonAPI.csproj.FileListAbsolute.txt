@@ -53,8 +53,12 @@ D:\DEV\Programs\PokemonAPI\PokemonAPI\bin\Debug\netcoreapp3.1\System.Diagnostics
 D:\DEV\Programs\PokemonAPI\PokemonAPI\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
 D:\DEV\Programs\PokemonAPI\PokemonAPI\bin\Debug\netcoreapp3.1\System.Text.Json.dll
 D:\DEV\Programs\PokemonAPI\PokemonAPI\bin\Debug\netcoreapp3.1\runtimes\linux-mips64\native\libe_sqlite3.so
-D:\DEV\Programs\PokemonAPI\PokemonAPI\obj\Debug\netcoreapp3.1\PokemonAPI.csproj.CoreCompileInputs.cache
-D:\DEV\Programs\PokemonAPI\PokemonAPI\obj\Debug\netcoreapp3.1\PokemonAPI.MvcApplicationPartsAssemblyInfo.cache
 D:\DEV\Programs\PokemonAPI\PokemonAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
-D:\DEV\Programs\PokemonAPI\pokemonapi\obj\Debug\netcoreapp3.1\PokemonAPI.csproj.AssemblyReference.cache
-D:\DEV\Programs\PokemonAPI\pokemonapi\obj\Debug\netcoreapp3.1\scopedcss\bundle\PokemonAPI.styles.css
+D:\DEV\Programs\PokemonAPI\PokemonAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\DEV\Programs\PokemonAPI\PokemonAPI\obj\Debug\netcoreapp3.1\PokemonAPI.csprojAssemblyReference.cache
+D:\DEV\Programs\PokemonAPI\PokemonAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\DEV\Programs\PokemonAPI\PokemonAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\DEV\Programs\PokemonAPI\PokemonAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\DEV\Programs\PokemonAPI\PokemonAPI\obj\Debug\netcoreapp3.1\PokemonAPI.csproj.CoreCompileInputs.cache
+D:\DEV\Programs\PokemonAPI\PokemonAPI\obj\Debug\netcoreapp3.1\PokemonAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\DEV\Programs\PokemonAPI\PokemonAPI\obj\Debug\netcoreapp3.1\PokemonAPI.MvcApplicationPartsAssemblyInfo.cache
