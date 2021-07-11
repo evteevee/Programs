@@ -1,10 +1,10 @@
-console.groupCollapsed('testing javascript')
+
 var data;
 var baseURL = "http://localhost:8080/pokemon";
 let checkCharizard;
 let pokemonName;
 
-//create charizard if it does not exist
+//call HttpGET from API to retrieve Pokemon description using Pokemon Name as key
 function getPokemon() {
     pokemonName = document.getElementById('pokemonName').value
     console.log(pokemonName)
@@ -41,13 +41,13 @@ function getPokemon() {
  
 }
 
-//create charizard if it does not exist
+//clear the form/page
 function resetSearch() {
     document.getElementById("description").innerHTML = null;
     document.getElementById("pokemonName").value = null;
 }
 
-//create charizard if it does not exist
+//create charizard if it does not exist using HttpPOST in API
 function createCharizard() {
     console.log("check if Charizard exists")
 
@@ -83,7 +83,7 @@ function createCharizard() {
 
 }
 
-//create charizard if it does not exist
+//create Bulbasaur if it does not exist using HttpPOST in API
 function createBulbasaur() {
     console.log("check if Bulbasaur exists")
 
