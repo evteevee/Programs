@@ -8,10 +8,15 @@ using Microsoft.OpenApi.Models;
 using Microsoft.EntityFrameworkCore;
 using PokemonAPI.Models;
 using PokemonAPI.Repositories;
+using System.Web;
+using System.Web.Http.Cors;
 
 //API controller is a class responsible for handling requests for an Endpoint
 namespace PokemonAPI.Controllers
 {
+
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
+
     //route the controller will handle 
     [Route("[controller]")]
     [ApiController]
