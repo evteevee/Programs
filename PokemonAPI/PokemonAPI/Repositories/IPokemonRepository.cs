@@ -12,8 +12,7 @@ namespace PokemonAPI.Repositories
     //Interface describes operations that can be performed against the database
     public interface IPokemonRepository
     {
-        //retrieves all Pokemon
-        Task<IEnumerable<Pokemon>> Get();
+        Pokemon BlankInput();
 
         //retrieves a single pokemon using its id key (not used)
         Task<Pokemon> Get(int id);
@@ -25,5 +24,11 @@ namespace PokemonAPI.Repositories
         Task<Pokemon> Create(Pokemon pokemon);
         Task Update(Pokemon pokemon);
         Task Delete(int id);
+
+        //check if input name is integer
+        bool CheckNameIsINT(string name);
+
+        //check if input name is exist
+        bool CheckNameExist(string name);
     }
 }

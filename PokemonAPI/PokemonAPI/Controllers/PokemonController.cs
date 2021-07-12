@@ -29,13 +29,12 @@ namespace PokemonAPI.Controllers
         {
             _pokemonRepository = pokemonRepository;
         }
-           
-        //method will handle HTTPGET requests
+
+        //method will handle HTTPGET requests with blank input (default)
         [HttpGet]
-        public async Task<IEnumerable<Pokemon>> GetPokemons()
+        public Pokemon BlankInput()
         {
-            //returns all pokemon
-            return await _pokemonRepository.Get();
+            return _pokemonRepository.BlankInput();
         }
 
         //returns a single pokemon that matches the arguement name
@@ -47,10 +46,11 @@ namespace PokemonAPI.Controllers
 
         //handles post requests for creating a new pokemon instance in the database
         [HttpPost]
-        public async Task<ActionResult<Pokemon>>PostPokemons([FromBody] Pokemon pokemon)
+        
+        public async Task<ActionResult<Pokemon>> PostPokemons([FromBody] Pokemon pokemon)
         {
             var newPokemon = await _pokemonRepository.Create(pokemon);
-            return CreatedAtAction(nameof(GetPokemons), new { id = newPokemon.Id }, newPokemon);
+            return newPokemon;
         }
 
         //handles post requests for creating a new pokemon instance in the database

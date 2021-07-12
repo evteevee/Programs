@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="script.js" defer></script>
+    <title> Pokemon API </title>
+    <meta charset="UTF-8">
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        th, td {
+          padding: 5px;
+          text-align: left;    
+        }
+        </style>
+  </head>
+  <body>
+<h2>Automated Testing for Pokemon Shakespearean API</h2>
+<h4>API URL:<i> http://localhost:8080/pokemonapi</i></h4>
+<table style="width:100%">
+    <tr>
+        <th>Test Buttons</th>
+        <th>API Request</th>
+        <th>API Response</th>
+    </tr>
+    <tr>
+        <th><button type="button" onclick="testGetSpaces()">GET string input as Spaces/Empty</button> </th>
+        <th rowspan="10"><code><p id="httpRequest"></p></code></th>
+        <th rowspan="10"><code><p id="httpResponse"></p></code></th>
+    </tr>
+    <tr>
+        <th><button type="button" onclick="testGetCharizard()">GET Charizard</button></th>
+    </tr>
+    <tr>   
+        <th><button type="button" onclick="testGetBulbasaur()">GET Bulbasaur</button> </th>
+    </tr>
+    <tr>
+        <th><button type="button" onclick="testGetRandomInt()">GET Integers as Value</button></th>
+    </tr>
+    <tr>
+        <th><button type="button" onclick="testGetStringInt()">GET INT and String as Value</button></th>
+    </tr>
+    <tr>
+        <th><button type="button" onclick="testGetNULLPokemon()">GET Pokemon that does not exit in system</button></th>
+    </tr>
+    <tr>
+        <th><button type="button" onclick="testPOSTCreateCharizard()">POST Create Charizard</button></th>
+    </tr>
+    <tr>
+        <th><button type="button" onclick="testPOSTCreateBulbasaur()">POST Create Bulbasaur</button></th>
+    </tr>
+    <tr>
+        <th><button type="button" onclick="testPOSTCreateNameInt()">POST Create Name with Integers</button></th>
+    </tr>
+    <tr>
+        <th><button type="button" onclick="resetReqRes()">Clear Request/Response</button></th>
+    </tr>
+    
+  </table>
+<br><br><br><br>
+  <a href="index.html">
+    <button type="submit"/>Back to Landing Page</button>
+   </a>
+    </body>
+</html>
